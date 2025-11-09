@@ -36,3 +36,6 @@ python -m src.main
 
 # optional smoke test
 python tests.py
+
+# what the code outputs
+Running python -m src.main reads Coursera and Udemy data, cleans them, generates topic trend CSVs in results/outputs/, and figures in results/figs/.
