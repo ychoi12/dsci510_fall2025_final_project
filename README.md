@@ -16,6 +16,11 @@ cd src
 python main.py
 # Smoke test
 python main.py smoke
+python -m venv .venv
+source .venv/bin/activate 
+pip install -r requirements.txt
+cp .env.example .env 
+python -m src.main
 
 How to run:
 cd src
