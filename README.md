@@ -13,6 +13,10 @@ source .venv/bin/activate
 # Windows (PowerShell):
 # .venv\Scripts\Activate.ps1
 
+# Place raw data before running:
+  data/Coursera.csv
+  data/udemy_online_education_courses_dataset.csv
+
 # Install dependencies
 pip install -r requirements.txt
 
