@@ -2,26 +2,33 @@ This a dsci510 fall2025 final project
 
 # Final Project — Which Topics Are Trending Across Online Learning Platforms?
 
-## Quick start
-```bash
+# Clone
 git clone <REPO_URL>
 cd FinalProject
-python3 -m venv .venv && source .venv/bin/activate
-pip install -r requirements.txt
-cp .env.example .env
-python -m src.main smoke
-python -m src.main all
-conda activate dsci510
-cd src
-python main.py
-# Smoke test
-python main.py smoke
+
+# Create & activate a virtual env
 python -m venv .venv
-source .venv/bin/activate 
+# macOS/Linux:
+source .venv/bin/activate
+# Windows (PowerShell):
+# .venv\Scripts\Activate.ps1
+
+# Install dependencies
 pip install -r requirements.txt
-cp .env.example .env 
+
+# Set up environment variables (no real keys in the repo)
+cp .env.example .env
+# (edit .env if you want to change GOOGLE_TRENDS_SLEEP, etc.)
+
+# Run the end-to-end pipeline (from project root)
 python -m src.main
 
-How to run:
-cd src
+# optional conda alterrnative:
+conda create -n dsci510 python=3.9 -y
+conda activate dsci510
+pip install -r requirements.txt
+cp .env.example .env
 python -m src.main
+
+# optional smoke test
+python tests.py
