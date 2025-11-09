@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.log
+
+# Virtual envs
+.venv/
+env/
+venv/
+
+# Secrets
+.env
+
+#Project data & outputs
+data/
+results/
+outputs/
+
+# Notebooks
+.ipynb_checkpoints/
+
+#OS / IDE junk
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
