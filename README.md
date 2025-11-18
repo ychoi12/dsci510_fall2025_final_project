@@ -128,6 +128,4 @@ No raw data or outputs are committed to GitHub, per project rules.
 
 All results regenerate from scratch using python -m src.main.
 
-All imports in your code are listed in requirements.txt.
-
-No real secrets are stored—only .env.example is included.
+All imports in code are listed in requirements.txt.
