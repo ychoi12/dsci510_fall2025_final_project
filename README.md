@@ -16,7 +16,6 @@ git clone <REPO_URL>
 cd FinalProject
 
 
-
 2. Create & Activate a Virtual Environment
 Option A — venv (Recommended)
 python -m venv .venv
@@ -36,7 +35,6 @@ data/
    udemy_online_education_courses_dataset.csv
 
 
-
 4. Install Dependencies
 pip install -r requirements.txt
 
@@ -50,7 +48,6 @@ cp .env.example .env
 Edit .env if desired:
 
 GOOGLE_TRENDS_SLEEP=1.0
-
 
 
 6. Run the Full Pipeline
