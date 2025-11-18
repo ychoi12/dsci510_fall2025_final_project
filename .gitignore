@@ -1,4 +1,4 @@
-# Python
+# Python cache / artifacts
 __pycache__/
 *.pyc
 *.pyo
@@ -6,15 +6,18 @@ __pycache__/
 *.egg-info/
 *.log
 
-# Virtual envs
+# Virtual environments
 .venv/
-env/
 venv/
+env/
+ENV/
+env.bak/
+venv.bak/
 
 # Secrets
 .env
 
-#Project data & outputs
+# Project data & outputs
 data/
 results/
 outputs/
@@ -22,8 +25,13 @@ outputs/
 # Notebooks
 .ipynb_checkpoints/
 
-#OS / IDE junk
+# OS / IDE junk
 .DS_Store
 Thumbs.db
 .idea/
 .vscode/
+
+# Optional cache folders
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
