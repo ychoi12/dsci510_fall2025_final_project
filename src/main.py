@@ -9,6 +9,7 @@ import json
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
+plt.rcParams.update({"font.size": 22})
 
 # import from the package `src`
 from src.fp_io import read_csv, write_csv
